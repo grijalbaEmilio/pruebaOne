@@ -1,0 +1,98 @@
+:root{
+    --line : rgb(170, 170, 170);
+    --table-background : white;
+    --font-title : gray;
+    --font-content : rgb(63, 63, 63);
+    --success : #28c401;
+    --danger : red;
+    --warning : rgb(255, 217, 0);
+    --info : rgb(0, 162, 255);
+}
+
+.danger{
+    background-color: var(--danger);
+}
+
+.warning{
+    background-color: var(--warning);
+}
+
+.info{
+    background-color: var(--info);
+}
+.component{
+    display: block;
+    margin: auto;
+    width: initial;
+    max-width: 750px;
+    background-color: var(--table-background);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.buttons{
+    background : var(--table-background);
+    display: flex;
+    margin: auto;
+    margin: 20px 0px 40px 0px;
+    justify-content: center;
+    width: 100%;
+    max-width: 750px;
+}
+
+.buton{
+    padding: 5px;
+    margin : 5px;
+    ;
+}
+
+.filt{
+    background-color: var(--table-background);
+    border: 2px solid var(--success);
+    font-size: 1rem;
+    color: var(--success);
+    border-radius: 5px;
+}
+
+.filt:hover{
+    background-color: var(--success);
+    color: white;
+}
+
+.tab{
+    background : var(--table-background);
+    display: block;
+    margin: auto;
+    width: initial;
+    max-width: 750px;
+}
+
+td{
+    padding : 5px 15px;
+    width : 500px;
+    color: var(--font-content);
+}
+
+.priori{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.point{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.line{
+    border-bottom: 2px solid var(--line);
+}
+
+.title{
+    color: var(--font-title);
+    font-size : 1.2rem;
+}
